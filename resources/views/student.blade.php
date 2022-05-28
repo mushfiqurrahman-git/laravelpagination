@@ -7,6 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    @foreach($students as $stu)
+    {{$stu->id}}
+    {{$stu->name}}
+    {{$stu->email}}
+    <br>
+
+    @endforeach
 </body>
 </html>
