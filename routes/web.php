@@ -20,3 +20,4 @@ Route::get('/', function () {
 });
 
 Route::get('/',[StudentController::class,'show']);
+Route::get('/gh/students',[StudentController::class,'show']);

@@ -14,5 +14,7 @@
     <br>
 
     @endforeach
+
+    {{$students->links()}}
 </body>
 </html>
